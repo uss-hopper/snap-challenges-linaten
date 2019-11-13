@@ -1,6 +1,6 @@
-
-[
-{
+<html lang="en">
+<meta charset="UTF-8">
+let company =[{
 "id": 1,
 "name": "Leanne Graham",
 "username": "Bret",
@@ -229,5 +229,15 @@
 "catchPhrase": "Centralized empowering task-force",
 "bs": "target end-to-end models"
 }
+}]
+
+const remove = (company) => {
+//...
+return company
 }
-]
+const items = ['company']
+companies.forEach((company) => {
+remove(company)
+})
+
+</html>
