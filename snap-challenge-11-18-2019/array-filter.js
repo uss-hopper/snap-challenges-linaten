@@ -3,6 +3,6 @@ const cats= "Ensign Babyface! Your shields were failing, sir. This should be int
 /** break string into words **/
 /** != this means not equal in js **/
 
-const newCats = cats.split('').filter(word =>word.toLowerCase()[0] !='e').join('');
+const newCats = cats.split(' ').filter(word => word.toLowerCase()[0] !='e').join(' ');
 console.log(newCats);
 
